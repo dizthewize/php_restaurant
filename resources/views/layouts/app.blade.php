@@ -13,11 +13,12 @@
     <!-- Styles -->
 
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
-    <link href="{{ asset('css/foundation.min.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('css/app.css') }}" rel="stylesheet">
 
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('css/foundation.min.css') }}" rel="stylesheet">
+
+    <link href="{{ URL::asset('css/style.css') }}" rel="stylesheet">
 
     @yield('styles')
 
@@ -49,13 +50,13 @@
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
 
-    <script src="{{ asset('js/foundation.min.js') }}"></script>
+    <script src="{{ URL::asset('js/foundation.min.js') }}"></script>
 
-    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ URL::asset('js/app.js') }}"></script>
 
-    <script src="{{ asset('js/matchheight.js') }}"></script>
+    <script src="{{ URL::asset('js/matchheight.js') }}"></script>
 
-    <script src="jquery.matchHeight.js" type="text/javascript"></script>
+    <script src="{{ URL::asset('jquery.matchHeight.js') }}"></script>
 
 </body>
 </html>

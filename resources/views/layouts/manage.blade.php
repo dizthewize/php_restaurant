@@ -14,11 +14,11 @@
 
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 
-    <link href="{{ asset('css/foundation.min.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('css/foundation.min.css') }}" rel="stylesheet">
 
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('css/app.css') }}" rel="stylesheet">
 
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('css/style.css') }}" rel="stylesheet">
 </head>
 <body>
     @include('partials.header')
@@ -31,8 +31,8 @@
 
 
     <!-- Scripts -->
-    <script src="{{ asset('js/foundation.min.js') }}"></script>
-    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ URL::asset('js/foundation.min.js') }}"></script>
+    <script src="{{ URL::asset('js/app.js') }}"></script>
     @yield('scripts')
     <script src="https://js.stripe.com/v3/"></script>
 
